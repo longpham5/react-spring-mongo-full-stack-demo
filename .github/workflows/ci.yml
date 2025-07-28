@@ -72,7 +72,7 @@ jobs:
     - name: Checkout manifest repo
       uses: actions/checkout@v4
       with: 
-        repository: longppham5/k8s
+        repository: longpham5/k8s
         token: ${{ secrets.PAT_SECRET }}
         path: manifests
         fetch-depth: 0
