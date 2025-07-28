@@ -31,8 +31,10 @@ jobs:
         java-version: '17'
 
     - name: Build with maven
-      run: mvn clean install
-
+      run: |
+        cd spring-boot-student-app-api
+        mvn clean install
+        
     - name: Run unit test
       run: mvn test
     
