@@ -45,7 +45,6 @@ jobs:
         docker build -t longppham5/springboot-app:${{ github.sha }} .
         docker push longppham5/springboot-app:${{ github.sha }}
     
-
   frontend:
     runs-on: ubuntu-latest
 
