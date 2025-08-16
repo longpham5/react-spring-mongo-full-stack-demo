@@ -7,12 +7,12 @@ on:
     branches: 
       - dev
     paths:
-      - 'react-student-management/*'
+      - 'react-student-management/**'
   pull_request:
     branches: 
       - dev
     paths:
-      - 'react-student-management/*'
+      - 'react-student-management/**'
 
 
 jobs:
