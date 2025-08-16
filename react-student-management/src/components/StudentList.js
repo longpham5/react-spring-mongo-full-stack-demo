@@ -138,7 +138,7 @@ const StudentList = () => {
         ) : (
           <div>
             <br />
-            <p>Please click on a Student...New version-ABC</p>
+            <p>Please click on a Student...New version-V1.0.0</p>
           </div>
         )}
       </div>
